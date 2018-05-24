@@ -1,11 +1,20 @@
 p {
 	color: #0000FF;
-	background-color: #888888;
+	font-size: 12px;
+	text-decoration: line-through;
 }
-h1  {
-		color: #008000;
-		background-color: #888888;
+h1{
+	text-transform: uppercase;
+	color: #99cc99;
+	background: #888888
 }
-h2  {
-		background-color: #888888;
+h2{
+	color: #99cc99;
+	background: #888888
+	text-decoration: underline;
 }
+body{
+	font-family: Serif;
+	font-weight: Bold;
+}
+
