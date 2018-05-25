@@ -1,5 +1,4 @@
 p {
-	color: #0000FF;
 	font-size: 12px;
 	text-decoration: line-through;
 }
@@ -14,12 +13,33 @@ h1{
 	border-color: red;
 }
 h2{
-	color: #99cc99;
-	background: #888888
 	text-decoration: underline;
 }
 body{
+	background: white url(https://image.shutterstock.com/image-vector/cute-cartoon-panda-character-eating-260nw-1050298676.jpg) repeat top right;
 	font-family: Serif;
 	font-weight: Bold;
 }
 
+#intro {
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+.spotlight {
+	background-color: #FEFE22
+}
+
+h2, p {
+	color: #004c00;
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: purple;
+}
+p:hover{
+	text-transform: uppercase;
+	color: blue;
+}
